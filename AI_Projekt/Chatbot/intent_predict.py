@@ -1,4 +1,4 @@
-from dependency_tree import to_nltk_tree , spacy_desc_parser
+from dependency_tree import nltk_tree , spacy_desc_parser
 import spacy
 from preprocessor import nlp
 import numpy as np

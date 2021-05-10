@@ -3,8 +3,7 @@ import numpy as np
 import spacy
 from os import listdir
 
-
-doc_nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 print("Loaded Vectorizer.")
 
 data_path = 'data/intent_classes/'
@@ -12,7 +11,7 @@ labels = [f.split('.')[0] for f in listdir(data_path) if isfile(join(data_path, 
 
 class Dataset(object):
 	def __init__(self):
-		vocab = doc_nlp.vocab
+		vocab = nlp.vocab
 		X_all_sent = []
 		X_all_vec_seq = []
 		X_all_doc_vec = []
@@ -22,7 +21,7 @@ class Dataset(object):
 			x_sents = x_file.read().split('\n')
 			for x_sent in x_sents:
 				if len(x_sent) > 0:
-					x_doc = doc_nlp(x_sent)
+					x_doc = nlp(x_sent)
 					x_doc_vec = x_doc.vector	
 					x_vec_seq = []
 					for word in x_doc:

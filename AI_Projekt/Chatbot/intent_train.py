@@ -19,7 +19,7 @@ print("Datasets loaded.")
 X_all = pad_sequences(dataset.X_all_vec_seq)
 Y_all = dataset.Y_all
 #print (X_all.shape)
-x_train, x_test, y_train, y_test = model_selection.traisen_test_split(X_all,Y_all,test_size=0.2)
+x_train, x_test, y_train, y_test = model_selection.train_test_split(X_all,Y_all,test_size=0.2)
 y_train = pad_sequence(y_train, classes)
 y_test = pad_sequence(y_test, classes)
  
