@@ -1,5 +1,7 @@
 # AI-projekt - En chattbott #
 I projektet ingår mina olika försök till att skapa en chattbott som kan hålla någon form av konversation genom deep learning, sequence-to-sequence learning och neurala nätverk. En video som översiktligt redovisar projektet är även inkluderad.
+
+!! Notera att personliga chatt-filer tagits bort inför uppladdningen !!
 ## Min idé ##
 Huvudtanken grundas i en av mina internetkompisar som skriver på ett lite annorlunda sätt. Jag ville fånga hans sätt att tala genom att träna AI med våra chatter som ett dataset.
 ## Syfte ##
