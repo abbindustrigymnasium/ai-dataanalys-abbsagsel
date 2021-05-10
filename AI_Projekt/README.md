@@ -8,3 +8,9 @@ Huvudtanken grundas i en av mina internetkompisar som skriver på ett lite annor
 Syftet med projektet är främst underhållning, men vägen dit har även resulterat i att jag nu vet lite mer om komplexiteten samt strukturen när det kommer till chattbottar.
 ## Förbättringsmöjligheter ##
 Bland de förbättringsmöjligheterna som är tydligast ligger ett färdigt projekt först. Tiden räckte inte till då jag lade mycket tid på att testa och försöka fixa äldre projekt, och när jag väl hittade ett nyare och bättre fungerande program var tiden knapp.
+## Projekten jag använde ##
+[Text-Chatbot](https://github.com/nishankmahore/Text-Chatbot)
+
+[Facebook-Messenger-Bot](https://github.com/adeshpande3/Facebook-Messenger-Bot)
+
+[pistoBot](https://github.com/pistocop/pistoBot)
